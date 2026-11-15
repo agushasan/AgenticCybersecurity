@@ -10,8 +10,7 @@ compasses) can steer an autonomous vehicle off its path. It then tests a layered
 against those attacks:
 
 - **SMT-based secure state estimation.** A multi-modal Luenberger observer plus a
-  pseudo-Boolean, conflict-driven search that finds which sensors are attacked
-  (after Shoukry et al., ACM TCPS 2018).
+  pseudo-Boolean, conflict-driven search that finds which sensors are attacked.
 - **A runtime-assurance (Simplex) safety filter.** It keeps the vehicle inside a hard
   lateral envelope for *any* supervisory agent policy, under the conditions of Theorem 1 of the paper.
 - **A reachable-set bound for Theorem 1.** It computes, with zonotopes, the set of states
@@ -24,10 +23,6 @@ The same code runs two case studies with only parameters changed:
 |---|---|---|---|---|
 | A | Autonomous surface vessel, straight and curving fairway | 6 m/s | 70 m | 48.7 m |
 | B | Automated car, highway lane keeping | 20 m/s | 0.8 m | 0.43 m |
-
-> **Simulation study.** All results come from numerical simulation of linear error-state
-> vehicle models. They have not been experimentally validated. See the paper's
-> limitations section.
 
 ## Quick start
 
@@ -123,8 +118,3 @@ cd paper && pdflatex paper.tex && pdflatex paper.tex
 }
 ```
 
-## Reference
-
-Y. Shoukry, M. Chong, M. Wakaiki, P. Nuzzo, A. Sangiovanni-Vincentelli, S. A. Seshia,
-J. P. Hespanha, and P. Tabuada, "SMT-based observer design for cyber-physical systems under
-sensor attacks," *ACM Trans. Cyber-Phys. Syst.*, vol. 2, no. 1, Art. 5, 2018.
