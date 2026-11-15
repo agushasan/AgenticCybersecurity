@@ -1,0 +1,79 @@
+{
+  "e_max": 0.8,
+  "fast_rate": 2.0,
+  "slow_rate": 0.3,
+  "B1": {
+    "peak": {
+      "truth": 0.3,
+      "naive": 55.15726305110604,
+      "secure": 0.32347017866014693
+    },
+    "detection": {
+      "precision": 1.0,
+      "recall": 0.9944320712694877,
+      "latency_s": 0.3000000000000007,
+      "attacked": [
+        1,
+        3
+      ],
+      "false_flag_channels": []
+    }
+  },
+  "B2": {
+    "peak_nortta": 87.38186516546017,
+    "peak_rta_mrm": 0.4529201251342445,
+    "peak_rta_full": 0.7966619963787144,
+    "failsafe_trip_s": 15.600000000000001
+  },
+  "B3": {
+    "peak": {
+      "truth": 0.3,
+      "naive": 8.251574993240009,
+      "secure": 13.015119372964712
+    },
+    "detection": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "latency_s": null,
+      "attacked": [
+        1,
+        3
+      ],
+      "false_flag_channels": [
+        5
+      ]
+    },
+    "peak_rta": 1.3407503139736554,
+    "time_to_lane_line_rta": null,
+    "failsafe_trip_s": 19.200000000000003
+  },
+  "multiseed": {
+    "clean_failsafe_runs": 0,
+    "B1_viol_runs": 0,
+    "B2_mrm_viol_runs": 0,
+    "B2_full_max": 0.9498671448543624,
+    "B2_lane_line_runs": 0,
+    "seeds": 8
+  },
+  "certificate": {
+    "spectral_radius": 0.7622069117491063,
+    "E_half": {
+      "dX": 0.12608741908117546,
+      "dY": 0.0976766263431677,
+      "dpsi": 0.006542217988960252,
+      "du": 0.04923062937793418,
+      "dv": 0.015248675577133093,
+      "dr": 0.002902938776822131
+    },
+    "sup": 0.4261028116987335,
+    "tail_eps": 1.1050687788536175e-45,
+    "certified": true,
+    "inflation": 2.9382327497005463,
+    "worst_removed": [
+      "GNSS-A along",
+      "GNSS-A lateral",
+      "GNSS-B along",
+      "GNSS-B lateral"
+    ]
+  }
+}

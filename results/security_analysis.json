@@ -1,0 +1,18 @@
+{
+  "p": 12,
+  "n": 6,
+  "smax_obs": 2,
+  "s_max": 1,
+  "delta_2s": 0.5673154211991447,
+  "fragile_channels": [],
+  "gnss_common": {
+    "channels": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "n_channels": 4,
+    "obs_after_removal": "True"
+  }
+}

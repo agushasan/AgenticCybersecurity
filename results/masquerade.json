@@ -1,0 +1,34 @@
+{
+  "attack": "Maneuver-masquerade GNSS spoof",
+  "t_start": 235.0,
+  "track": {
+    "truth": {
+      "rmse": 1.5533771136785768,
+      "max": 15.002084166699753
+    },
+    "naive": {
+      "rmse": 29.15584112938518,
+      "max": 54.331912305835885
+    },
+    "secure": {
+      "rmse": 3.096117920761575,
+      "max": 15.079437448755579
+    },
+    "secure_nominal": {
+      "rmse": 3.081613202485202
+    }
+  },
+  "detection": {
+    "precision": 1.0,
+    "recall": 0.9346733668341709,
+    "attacked_channels": [
+      1,
+      3
+    ],
+    "false_alarm_dynamic": 0.0
+  },
+  "maneuver_consistency_corr": {
+    "masquerade": 0.7623549746596318,
+    "walkoff": 0.03352907867410047
+  }
+}

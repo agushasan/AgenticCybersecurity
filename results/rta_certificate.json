@@ -1,0 +1,27 @@
+{
+  "e_max": 70.0,
+  "e0": 15.0,
+  "backup_spectral_radius": 0.9101628170839884,
+  "error_set_halfwidths": {
+    "dN": 4.088934539297982,
+    "dE": 3.1254775608907366,
+    "dpsi": 0.011260838093868216,
+    "du": 0.18076234875630853,
+    "dv": 0.08727940970500277,
+    "dr": 0.01659604459273868
+  },
+  "certified_sup_abs_e": 48.70210561000703,
+  "certified": true,
+  "noise_bound_nsigma": 3.0,
+  "worst_trusted_set_removes": [
+    "GNSS-A North",
+    "GNSS-A East",
+    "GNSS-B North",
+    "GNSS-B East"
+  ],
+  "tube_sup_finite": 48.70210561000025,
+  "mrpi_radius": 48.70210561000025,
+  "tail_eps": 6.7812820707452074e-12,
+  "horizon_K": 400,
+  "max_certifiable_inflation": 2.078722544014454
+}

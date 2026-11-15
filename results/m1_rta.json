@@ -1,0 +1,78 @@
+{
+  "e_max": 70.0,
+  "scenarios": {
+    "A": {
+      "peak_noRTA": 15.079437448755579,
+      "viol_noRTA": 0,
+      "peak_RTA": 15.079437448755579,
+      "viol_RTA": 0,
+      "modes": {
+        "nominal": 320,
+        "backup": 0,
+        "failsafe": 0,
+        "total": 320
+      }
+    },
+    "B": {
+      "peak_noRTA": 15.079437448755579,
+      "viol_noRTA": 0,
+      "peak_RTA": 15.079437448755579,
+      "viol_RTA": 0,
+      "modes": {
+        "nominal": 435,
+        "backup": 0,
+        "failsafe": 25,
+        "total": 460
+      }
+    },
+    "C": {
+      "peak_noRTA": 165.9670753775819,
+      "viol_noRTA": 149,
+      "peak_RTA": 15.079437448755579,
+      "viol_RTA": 0,
+      "modes": {
+        "nominal": 149,
+        "backup": 0,
+        "failsafe": 271,
+        "total": 420
+      }
+    },
+    "D": {
+      "peak_noRTA": 15.079437448755579,
+      "viol_noRTA": 0,
+      "peak_RTA": 15.079437448755579,
+      "viol_RTA": 0,
+      "modes": {
+        "nominal": 629,
+        "backup": 0,
+        "failsafe": 11,
+        "total": 640
+      }
+    },
+    "E": {
+      "peak_noRTA": 15.079437448755579,
+      "viol_noRTA": 0,
+      "peak_RTA": 15.079437448755579,
+      "viol_RTA": 0,
+      "modes": {
+        "nominal": 380,
+        "backup": 0,
+        "failsafe": 20,
+        "total": 400
+      }
+    },
+    "M": {
+      "peak_noRTA": 15.079437448755579,
+      "viol_noRTA": 0,
+      "peak_RTA": 15.079437448755579,
+      "viol_RTA": 0,
+      "modes": {
+        "nominal": 430,
+        "backup": 0,
+        "failsafe": 10,
+        "total": 440
+      }
+    }
+  },
+  "multiseed_violations_with_rta": 0
+}

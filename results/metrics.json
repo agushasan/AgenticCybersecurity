@@ -1,0 +1,187 @@
+{
+  "A single-channel": {
+    "attack": "Single-channel bias on GNSS-A East",
+    "truth": {
+      "crosstrack_est_rmse": 0.0,
+      "state_est_rmse": 0.0,
+      "true_final_crosstrack": 1.590754519000628,
+      "true_max_crosstrack": 15.002084166699753
+    },
+    "naive": {
+      "crosstrack_est_rmse": 22.766611651472882,
+      "state_est_rmse": 22.768992571476517,
+      "true_final_crosstrack": 27.05251527130509,
+      "true_max_crosstrack": 27.428168024457566
+    },
+    "secure": {
+      "crosstrack_est_rmse": 4.884371654740064,
+      "state_est_rmse": 5.638450981047461,
+      "true_final_crosstrack": 1.9533455855495157,
+      "true_max_crosstrack": 15.079437448755579
+    },
+    "detection": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "false_alarm_rate": 0.0,
+      "latency_s": 0.0,
+      "attacked_channels": [
+        1
+      ]
+    }
+  },
+  "B GNSS walk-off": {
+    "attack": "GNSS walk-off (common-mode)",
+    "truth": {
+      "crosstrack_est_rmse": 0.0,
+      "state_est_rmse": 0.0,
+      "true_final_crosstrack": 0.9257639719549284,
+      "true_max_crosstrack": 15.002084166699753
+    },
+    "naive": {
+      "crosstrack_est_rmse": 99.69256067285531,
+      "state_est_rmse": 99.69331179038387,
+      "true_final_crosstrack": 162.86866786902792,
+      "true_max_crosstrack": 162.86866786902792
+    },
+    "secure": {
+      "crosstrack_est_rmse": 10.056246348334607,
+      "state_est_rmse": 10.47270404668199,
+      "true_final_crosstrack": 3.845316381729358,
+      "true_max_crosstrack": 15.079437448755579
+    },
+    "detection": {
+      "precision": 1.0,
+      "recall": 0.8731563421828908,
+      "false_alarm_rate": 0.0,
+      "latency_s": 44.0,
+      "attacked_channels": [
+        1,
+        3
+      ]
+    }
+  },
+  "C all anchors": {
+    "attack": "GNSS walk-off + radar-East (all East anchors)",
+    "truth": {
+      "crosstrack_est_rmse": 0.0,
+      "state_est_rmse": 0.0,
+      "true_final_crosstrack": 0.567848743983683,
+      "true_max_crosstrack": 15.002084166699753
+    },
+    "naive": {
+      "crosstrack_est_rmse": 87.54660670933895,
+      "state_est_rmse": 87.54738567665387,
+      "true_final_crosstrack": 142.71742196141935,
+      "true_max_crosstrack": 142.71742196141935
+    },
+    "secure": {
+      "crosstrack_est_rmse": 104.99164906595496,
+      "state_est_rmse": 105.03330853327716,
+      "true_final_crosstrack": 165.9670753775819,
+      "true_max_crosstrack": 165.9670753775819
+    },
+    "detection": {
+      "precision": NaN,
+      "recall": 0.0,
+      "false_alarm_rate": 0.0,
+      "latency_s": NaN,
+      "attacked_channels": [
+        1,
+        3,
+        5
+      ]
+    }
+  },
+  "D adaptive campaign": {
+    "attack": "Adaptive multi-phase campaign",
+    "truth": {
+      "crosstrack_est_rmse": 0.0,
+      "state_est_rmse": 0.0,
+      "true_final_crosstrack": 0.14226524982594918,
+      "true_max_crosstrack": 15.002084166699753
+    },
+    "naive": {
+      "crosstrack_est_rmse": 21.01480571117884,
+      "state_est_rmse": 21.021003654649213,
+      "true_final_crosstrack": 47.56214545667289,
+      "true_max_crosstrack": 50.73315838078508
+    },
+    "secure": {
+      "crosstrack_est_rmse": 6.914059922109853,
+      "state_est_rmse": 7.593198077548373,
+      "true_final_crosstrack": 4.522369577994038,
+      "true_max_crosstrack": 15.079437448755579
+    },
+    "detection": {
+      "precision": 0.9096267190569745,
+      "recall": 0.687964338781575,
+      "false_alarm_rate": 0.0,
+      "latency_s": 15.0,
+      "attacked_channels": [
+        1,
+        3,
+        6
+      ]
+    }
+  },
+  "E coordinated": {
+    "attack": "Coordinated GNSS+gyro (cross-consistent)",
+    "truth": {
+      "crosstrack_est_rmse": 0.0,
+      "state_est_rmse": 0.0,
+      "true_final_crosstrack": 0.16359089691543996,
+      "true_max_crosstrack": 15.002084166699753
+    },
+    "naive": {
+      "crosstrack_est_rmse": 94.17505504893828,
+      "state_est_rmse": 94.17560634829628,
+      "true_final_crosstrack": 179.57423337666637,
+      "true_max_crosstrack": 179.57423337666637
+    },
+    "secure": {
+      "crosstrack_est_rmse": 9.874073963886554,
+      "state_est_rmse": 10.313799437582258,
+      "true_final_crosstrack": 4.748050384106836,
+      "true_max_crosstrack": 15.079437448755579
+    },
+    "detection": {
+      "precision": 1.0,
+      "recall": 0.8829151732377539,
+      "false_alarm_rate": 0.0,
+      "latency_s": 13.0,
+      "attacked_channels": [
+        1,
+        3,
+        6
+      ]
+    }
+  },
+  "M maneuvering": {
+    "attack": "GNSS walk-off (common-mode)",
+    "truth": {
+      "track_rmse": 1.4503928035820923,
+      "track_max": 15.002084166699753,
+      "true_max_crosstrack": 15.002084166699753
+    },
+    "naive": {
+      "track_rmse": 61.448658149340325,
+      "track_max": 117.32064089820298,
+      "true_max_crosstrack": 117.32064089820298
+    },
+    "secure": {
+      "track_rmse": 3.38406116102967,
+      "track_max": 15.079437448755579,
+      "true_max_crosstrack": 15.079437448755579
+    },
+    "detection": {
+      "precision": 1.0,
+      "recall": 0.8803088803088803,
+      "false_alarm_rate": 0.0,
+      "latency_s": 29.0,
+      "attacked_channels": [
+        1,
+        3
+      ]
+    }
+  }
+}
