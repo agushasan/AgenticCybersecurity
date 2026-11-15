@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+results/*.npz
+results/*.txt
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.pdf
+.DS_Store
+.ipynb_checkpoints/
