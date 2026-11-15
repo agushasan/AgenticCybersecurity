@@ -100,12 +100,6 @@ Each module in `src/` also runs on its own as a self-test, for example
 `python3 src/secure_estimation.py` checks that the MML observer reproduces the explicit
 observer bank.
 
-## Building the paper
-
-```bash
-cd paper && pdflatex paper.tex && pdflatex paper.tex
-```
-
 ## Citation
 
 ```bibtex
